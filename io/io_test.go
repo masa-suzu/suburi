@@ -19,7 +19,7 @@ func TestReadWriteLine(t *testing.T) {
 			in:   "1",
 			act: func(lrw *LineReadWriter) {
 				l := lrw.ReadLine()
-				lrw.WriteLine(l)
+				_ = lrw.WriteLine(l)
 			},
 			want: "1\n",
 		},

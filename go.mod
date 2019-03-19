@@ -1,1 +1,1 @@
-module suburi.go
+module github.com/masa-suzu/suburi
